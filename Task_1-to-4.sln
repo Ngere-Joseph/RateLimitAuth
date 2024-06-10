@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthWebApi", "AuthWebApi\AuthWebApi.csproj", "{65F595AC-72CF-4131-ACD3-AF40C6F71335}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2.DbOptimizer", "Task2.DbOptimizer", "{36E410BD-EC41-439E-8094-42B55F85362E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbOptimizer.Core", "DbOptimizer.Core\DbOptimizer.Core.csproj", "{0D1345BC-2430-4257-9E24-A42E3E86DE86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbOptimizer.Infrastructure", "DbOptimizer.Infrastructure\DbOptimizer.Infrastructure.csproj", "{04E035DB-699F-4A4B-BC48-36319FA2AB41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbOptimizer.Application", "DbOptimizer.Application\DbOptimizer.Application.csproj", "{EC08D4AE-FFAA-4F1C-B29A-2DDF4E6D8E4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task4.Hangfire", "Task4.Hangfire", "{E0CE2917-8AD8-4A0F-B323-10FBB1228009}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangfireService", "HangfireService\HangfireService.csproj", "{00B7A3C1-001E-4153-BB81-4ACA01C4743A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1-and-3.AuthRateLimiting", "Task1-and-3.AuthRateLimiting", "{D98ED072-A577-4F87-8A33-F83B374B11F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65F595AC-72CF-4131-ACD3-AF40C6F71335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F595AC-72CF-4131-ACD3-AF40C6F71335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F595AC-72CF-4131-ACD3-AF40C6F71335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F595AC-72CF-4131-ACD3-AF40C6F71335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D1345BC-2430-4257-9E24-A42E3E86DE86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D1345BC-2430-4257-9E24-A42E3E86DE86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D1345BC-2430-4257-9E24-A42E3E86DE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1345BC-2430-4257-9E24-A42E3E86DE86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04E035DB-699F-4A4B-BC48-36319FA2AB41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E035DB-699F-4A4B-BC48-36319FA2AB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E035DB-699F-4A4B-BC48-36319FA2AB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E035DB-699F-4A4B-BC48-36319FA2AB41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC08D4AE-FFAA-4F1C-B29A-2DDF4E6D8E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC08D4AE-FFAA-4F1C-B29A-2DDF4E6D8E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC08D4AE-FFAA-4F1C-B29A-2DDF4E6D8E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC08D4AE-FFAA-4F1C-B29A-2DDF4E6D8E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B7A3C1-001E-4153-BB81-4ACA01C4743A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B7A3C1-001E-4153-BB81-4ACA01C4743A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B7A3C1-001E-4153-BB81-4ACA01C4743A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B7A3C1-001E-4153-BB81-4ACA01C4743A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65F595AC-72CF-4131-ACD3-AF40C6F71335} = {D98ED072-A577-4F87-8A33-F83B374B11F4}
+		{0D1345BC-2430-4257-9E24-A42E3E86DE86} = {36E410BD-EC41-439E-8094-42B55F85362E}
+		{04E035DB-699F-4A4B-BC48-36319FA2AB41} = {36E410BD-EC41-439E-8094-42B55F85362E}
+		{EC08D4AE-FFAA-4F1C-B29A-2DDF4E6D8E4F} = {36E410BD-EC41-439E-8094-42B55F85362E}
+		{00B7A3C1-001E-4153-BB81-4ACA01C4743A} = {E0CE2917-8AD8-4A0F-B323-10FBB1228009}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {332F99F4-7C2F-45D2-BD4B-66FBAE7282FD}
+	EndGlobalSection
+EndGlobal
